@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos - Curso practico de JS</title>
+</head>
+<body>
+    <header>
+        <h1>Taller # 2: Calculo de Descuentos</h1>
+    </header>
+    <section class="descuentos">
+        <h2>Ingresa el precio y descuento</h2>
+        <form>
+            <label for="ImputPrecio">Precio</label>
+            <input type="number" id="ImputPrecio">
+            <label for="InputDescuento">Descuento</label>
+            <input type="number" id="InputDescuento">
+            <button type="button" onclick="ejecutarCalcularPrecioConDescuento()">Calcular precio don descuento</button>
+        </form>
+        <p id="resultadoDelDescuento"></p>
+    </section>
+</body>
+<script src="./descuento.js"></script>
+</html>

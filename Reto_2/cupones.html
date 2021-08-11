@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos - Curso practico de JS</title>
+</head>
+<body>
+    <header>
+        <h1>Taller # 2: Calculo de Descuentos</h1>
+    </header>
+    <section class="cupones">
+        <h1>Cupones de descuento</h1>
+        <ul>
+            <li>Cupon: 5% de descuento Codigo: promo5</li>
+            <li>Cupon: 20% de descuento Codigo: promo20</li>
+            <li>Cupon: 50% de descuento Codigo: promo50</li>
+        </ul>
+    </section>
+    <section class="descuentos">
+        <h2>Ingresa el precio y el cupon de descuento</h2>
+        <form>
+            <label for="ImputPrecio">Precio:    </label>
+            <input type="number" id="ImputPrecio"><br>
+            <label for="InputCupon">Cupon: </label>
+            <input type="text" id="InputCupon">
+            <button type="button" onclick="ejevutarValidarCupon()">Validar Cupon</button><br>
+            <p id="validacionCupon"></p>
+            <button type="button" onclick="ejecutarCalcularPrecioConCupon()">Calcular precio con Cupon</button>
+        </form>
+    </section>
+    <section>
+        <p id="resultadoDelDescuento"></p>
+    </section>
+</body>
+<script src="./cupones.js"></script>
+</html>

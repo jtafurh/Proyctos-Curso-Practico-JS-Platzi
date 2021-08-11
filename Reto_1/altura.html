@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de altura del triangulo isósceles</title>
+    <link rel="stylesheet" href="./altura.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="encabezado">
+        <h1>Curso Practico<br> de JS</h1>
+    </header>
+   <section class="calculadora">
+        <h1>RETO # 1</h1>
+        <h2>Calcular altura de un triangulo isósceles</h2>
+        <form class="calculadora__container">
+            <h3>Escribe cuánto miden los lados del triangulo:</h3>
+            <input class="input" id="InputLado1" type="number" placeholder="Lado 1"/>
+            <input class="input" id="InputLado2" type="number" placeholder="Lado 2"/>
+            <input class="input" id="InputLado3" type="number" placeholder="Lado 3"/>
+            <button class="button"type="button" onclick="calcularAltura()">
+                Calcular altura
+            </button>
+        </form>
+   </section>
+</body>
+<script src="./altura.js"></script>
+</html>
