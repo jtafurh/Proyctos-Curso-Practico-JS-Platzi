@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+
+    <link rel="stylesheet" href="./promedio.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <head>
+        <h1>Promedio, Moda y Mediana</h1>
+    </head>
+    <main>
+        <section>
+            <label for="inputDatos">Ingresa los datos:</label>
+            <input type="number" id="inputDatos">
+            <button type="button" onclick = "guardarDato()">Agregar dato</button>
+            <p id="datosGuardados"></p>
+            <button type="button" onclick="ejecutaCalcularPromedioAritmetico()">Promedio aritmetico</button>
+            <button type="button" onclick="ejecutaCalcularMediana()">Mediana</button>
+            <button type="button" onclick="ejecutaCalcularModa()">Moda</button>
+            <p id="resultadoPromedioAritmetico">Promedio aritmetico: </p>
+            <p id="resultadoMediana"> Mediana: </p>
+            <p id="ResultadoModa">Moda: </p>
+        </section>
+    </main>
+    <script src="./promedio.js"></script>
+</body>
+</html>

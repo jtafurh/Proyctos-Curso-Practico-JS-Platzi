@@ -31,7 +31,6 @@ function calcularAreaCuadrado() {
     const area = areaCuadrado(value);
     alert(area)
 };
-
 function calcularPerimetroTriangulo() {
     const input1 = document.getElementById("InputTriangulo1");
     const input2 = document.getElementById("InputTriangulo2");

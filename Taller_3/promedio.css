@@ -1,0 +1,6 @@
+section{
+    height: 300px;
+    left: 300px;
+    display: flex;
+    flex-direction: column;
+}
